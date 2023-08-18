@@ -6,3 +6,5 @@ app.get("/", (req, res) => {
   res.status(200).send("Hello World");
 });
 server.listen(3030);
+
+app.set("view engine", "ejs");
